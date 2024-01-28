@@ -17,5 +17,21 @@ locals {
       visibility         = "public"
     }
 
+    "fem-eci-terraform-aws-network" = {
+      description        = "Automation for creating AWS networking resources"
+      gitignore_template = "Terraform"
+      name               = "fem-eci-terraform-aws-network"
+      topics             = ["fem-workshop", "terraform"]
+      visibility         = "public"
+    }
+
+    "fem-eci-terraform-aws-cluster" = {
+      description        = "Automation for creating AWS clusters"
+      gitignore_template = "Terraform"
+      name               = "fem-eci-terraform-aws-cluster"
+      topics             = ["fem-workshop", "terraform"]
+      visibility         = "public"
+    }
+
   }
 }
